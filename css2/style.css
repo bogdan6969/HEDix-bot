@@ -1,0 +1,31 @@
+:root {
+  --bg: #127a7a;
+  --bgc: #004b5e;
+  --bg-dark: #000000;
+  --text: #000000;
+  --accent: #2f49b92f;
+}
+body {
+  background-color: var(-bg);
+  color: var(--text);
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+  line-height: 1.1;
+}
+h1 {
+  font-family: 'Times';
+  text-align: center;
+}
+a {
+  text-align: center;
+  color: #0f4d6996;
+  text-decoration: wavy;
+}
+* {
+  margin: 36;
+  padding: 36;
+}
+body {
+  background-image: url(21-54-57-image.jpg); /* Путь к фоновому изображению */
+  background-color: #0a0738; /* Цвет фона */
+}
